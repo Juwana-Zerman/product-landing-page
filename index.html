@@ -40,13 +40,13 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Packages</a>
+            <a class="nav-link" href="#packages">Packages</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
@@ -55,7 +55,7 @@
   </header>
 
   <!-- Page Content -->
-  <div class="container">
+  <div id="packages" class="container">
 
     <div class="row">
 
@@ -63,9 +63,9 @@
 
         <h1 class="my-4">Packages</h1>
         <div class="list-group">
-          <a href="#" class="list-group-item">Tropical Package 1</a>
-          <a href="#" class="list-group-item">Tropical Package 2</a>
-          <a href="#" class="list-group-item">Tropical Package 3</a>
+          <a href="#hawaii package" class="list-group-item">Hawaii Package</a>
+          <a href="#canary islands package" class="list-group-item">Canary Islands Package </a>
+          <a href="#maldives package" class="list-group-item">Maldives Package</a>
         </div>
 
       </div>
@@ -107,7 +107,7 @@
               <a href="#"><img class="card-img-top" src="images/aloha.jpg" alt="aloha image" width="700" height="400"></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="#">Package One</a>
+                  <p id="hawaii package">Hawaii</p>
                 </h4>
                 <h5>$5000</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
@@ -123,7 +123,7 @@
               <a href="#"><img class="card-img-top" src="images/FountainCanaryIsland.jpg" alt="canary island fountain" width="700" height="400"></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="#">Package Two</a>
+                  <p id="canary islands package">Canary Islands</p>
                 </h4>
                 <h5>$5000</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur! Lorem ipsum dolor sit amet.</p>
@@ -139,7 +139,7 @@
               <a href="#"><img class="card-img-top" src="images/MaldivesCanopy.jpg" alt="maldives canopy" width="700" height="400"></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="#">Package Three</a>
+                  <p id="maldives package">Maldives</p>
                 </h4>
                 <h5>$5000</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
@@ -159,10 +159,11 @@
           </div>
           </div>
           <br>
-          <div class="contact">
+          <div id="contact">
+            <h5 class="info-request">Request More Information</h5>
             <form id="form" class=contact-form action="https://www.freecodecamp.com/email-submit">
-              <input autofocus id="email" autofocus type="email" aria-describedby="emailaddress" placeholder="Enter Email Address">
-              <input autofocus id="submit" type="submit"> 
+              <input autofocus id="email" autofocus name="email" type="email" aria-describedby="emailaddress" placeholder="Enter Email Address" required />
+              <input autofocus id="submit" class="btn" type="submit" value="Request Info"></input> 
             </form>
           </div>
           
