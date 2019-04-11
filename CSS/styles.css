@@ -5,7 +5,7 @@
       font-size: 1rem;
       font-weight: 400;
       line-height: 1.5;
-      color: #212529;
+      color: #225a92;
       text-align: left;
       background-color: #fff;
     }
@@ -23,14 +23,8 @@
   }
 
   #nav-bar {
-    background: #fff;
-    padding-top: .75rem;
-    padding-bottom: .75rem;
-    color: #333;
-    border-radius: 0;
-    box-shadow: none;
-    border: none;
-    margin-bottom: none;
+    background: #454d5c;
+    color: #fdfafa;    
     }
 
   .navbar {
@@ -40,7 +34,8 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    padding: .5rem 1rem;
+    /*padding: .5rem 1rem;*/
+    height: 80px;
   }
 
   footer, nav {
@@ -52,6 +47,14 @@
     
   }
 
+  .footer {
+    background: #454d5c;
+    height: 80px;
+  }
+
+  .fa-heartbeat {
+    color: #cacaf3;
+  }
   
   /*header {
     margin-right: 30px;
