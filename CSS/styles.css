@@ -14,13 +14,12 @@
         padding-top: 1rem;
         padding-bottom: 1rem;
       }
-
+    }
       .navbar-expand-sm {
         -ms-flex-flow: row nowrap;
         flex-flow: row nowrap;
         justify-content: flex-start;
       }
-    }
 
     #nav-bar {
       background: #214c9c;
