@@ -103,16 +103,43 @@
     text-align: center;
   }
 
-  /*.row {
-    width: 90%;
-    display: flex;
-    justify-content: center;
-    padding-left:70px;
-    
-  }*/
-
   .card {
     display: flex;
-    justify-content: space-evenly;
-    width: 90%;
+    justify-content: center;
+    width: 85%;
+    margin: 0 auto;
   }
+
+  .video-section {
+    display: flex;
+    width: 85%;
+    justify-content: center;
+    margin-top: 50px;
+    padding-top: 50px;
+  }
+
+  .promo-video {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.contact-form {
+  padding-left: 25px;
+  padding-top: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.info {
+  text-align: center;
+}
