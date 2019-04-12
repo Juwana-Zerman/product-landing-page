@@ -112,25 +112,59 @@
 
   .video-section {
     display: flex;
-    width: 85%;
+    flex-direction: row;
+    width: 70%;
     justify-content: center;
-    margin-top: 50px;
+    margin: 0 auto;
     padding-top: 50px;
   }
 
-  .promo-video {
-    text-align: center;
+  .promo-heading {
     display: flex;
     justify-content: center;
+    flex-direction: row;
+    margin: 0 auto;
+    text-align: center;
+    width: 90%;
+    padding-top: 75px;
   }
 
-#contact {
+  .promo-title {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  /*.promo-heading {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    margin: 0 auto;
+  }
+
+ .promo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+  }*/
+
+  #contact {
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin: 0 auto;
   padding-top: 80px;
   padding-bottom: 80px;
+  width: 80%;
+}
+
+@media (min-width: 360) and (max-width: 800) {
+  #contact {
+    width: 60%;
+  }
 }
 
 .contact-form {
@@ -143,3 +177,8 @@
 .info {
   text-align: center;
 }
+
+.btn-primary {
+  padding-left: 25px;
+}
+
